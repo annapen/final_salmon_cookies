@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Comfortaa|Roboto+Condensed:300" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+     <div class="container">
+         <img src="./assets/salmon_cookie_newlogo.jpg" alt="Salmon Cookie Logo with a fish in center and co name" class="logo">
+        <nav>
+            <ul>
+                    <li><a class="active" href="#home">About</a></li>
+                    <li><a href="#news">Specials</a></li>
+                    <li><a href="#contact">Catering</a></li>
+                    <li><a href="#about">Contact</a></li>
+            </ul>
+        </nav>
+     </div>
+    </header>
+    <div class="img-container">
+       <h1>A hint of Seattles <em>best</em> in every bite...</h1>
+        </div>
+    </div>
+<p>Sales Metrics</p>
+<div class="table">
+    <fieldset>
+      <form id="store-form">
+        <label>Store Name</label>
+        <input required name="nameOfStore"/>
+        <label>Minimum # of Customers</label>
+        <input name="minCustomer" min="0" max="5"/>
+        <button type="submit">Show Numbers!</button>
+      </form>
+    </fieldset>
+    <table id="storetable"></table>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
